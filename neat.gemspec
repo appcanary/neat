@@ -23,7 +23,7 @@ out of the box and flexible enough to customize down the road.
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ['lib']
 
-  s.add_dependency('sassc', '~> 1.10.1')
+  s.add_dependency('sassc', '~> 1.9')
   s.add_dependency("thor", "~> 0.19")
 
   s.add_development_dependency("scss_lint", "~> 0.43")
